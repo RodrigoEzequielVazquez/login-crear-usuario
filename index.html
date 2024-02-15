@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <main>
+        <form>
+            <h1>Iniciar sesión</h1>
+            <div id="contenedorInputs">
+                <div>
+                    <img src="/img/usuario.png" alt="">
+                    <input type="text" id="text" name="text" placeholder="Ingrese su usuario" required>
+                </div>
+                <div>
+                    <img src="/img/candado.png" alt="">
+                    <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
+                </div>
+            </div>
+            <div id="contenedorBtns">
+                <button type="submit" id="iniciarInicio" class="iniciar">Iniciar sesión</button>
+                <label for="crear">No estas registrado?</label>
+                <button id="crearInicio" class="crear">Crear usuario</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="/js/index.js"></script>
+
+</body>
+
+</html>

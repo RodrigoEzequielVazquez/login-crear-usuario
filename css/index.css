@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+body main{
+    padding: 2.5rem;
+    box-shadow: 0 5px 20px 5px rgb(114, 114, 114);
+}
+
+body main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; 
+}
+
+body main form h1{
+    font-size: 1.4rem;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+body main form #contenedorInputs{
+    display: flex;
+    flex-direction: column;  
+    gap: 2rem;
+}
+
+body main form #contenedorInputs div{
+    display: flex;
+    padding: 0.5rem;
+    border: 1px solid gray; 
+}
+
+body main form #contenedorInputs div img{
+    width: 1rem;
+    height: 1rem; 
+}
+body main form #contenedorInputs div input{
+    padding-left: 1rem;
+    padding-top: 3px;
+    border: none;
+    outline: none;   
+}
+
+body main form #contenedorBtns{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+body main form #contenedorBtns label{
+    margin-top: 3rem;
+}
+
+body main form #contenedorBtns button{
+    width: 9em;
+    height: 2.5rem;
+    padding: 0.4rem;
+    border: 0;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+body main form #contenedorBtns .iniciar{
+    background-color: #2E8B57; 
+}
+
+body main form #contenedorBtns .crear{
+    background-color: #808080; 
+}

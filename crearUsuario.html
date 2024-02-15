@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Crear Usuario</title>
+</head>
+
+<body>
+
+    <main id="contenedorCrear">
+        <form>
+            <h1>Crear usuario</h1>
+            <div id="contenedorInputs">
+                <div>
+                    <img src="/img/usuario.png" alt="">
+                    <input type="text" id="user" name="user" placeholder="Ingrese su usuario" required>
+                </div>
+                <div>
+                    <img src="/img/email.png" alt="">
+                    <input type="email" id="email" name="email" placeholder="Ingrese su correo" required>
+                </div>
+                <div>
+                    <img src="/img/candado.png" alt="">
+                    <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
+                </div>
+                <div>
+                    <img src="/img/candado.png" alt="">
+                    <input type="password" id="password2" name="password2" placeholder="Repita su contraseña" required>
+                </div>
+                <div>
+                    <img src="/img/calendario.png" alt="">
+                    <input type="date" id="date" name="date" required>
+                </div>
+            </div>
+            <div id="contenedorBtns">
+                <button type="submit" id="crearUsuario" class="crear">Crear usuario</button>
+                <label for="iniciar">Ya tenes una cuenta?</label>
+                <button id="iniciarCrear" class="iniciar">Iniciar sesión</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="/js/crearUsuario.js"></script>
+
+</body>
+
+</html>
